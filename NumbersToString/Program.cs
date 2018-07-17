@@ -78,7 +78,7 @@ namespace NumbersToString
                 string a3 = Console.ReadLine();
 
                 int[] a4 = a3.Select(n => Convert.ToInt32(n) - '0').ToArray();
-                //for (int i = 0; i < a4.Length; i++) Console.WriteLine(a4[i]);
+                
                 Console.WriteLine();
                 try { Console.WriteLine(testuje.MojaFunkcja(a4)); }
                 catch { Console.WriteLine("Czy Ty wiesz czym sie rożnią liczby od znaków?"); }
